@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Encuesta de Satisfacción - Hotel del Sol</title>
+</head>
+<body>
+
+  <h1 id="title">Encuesta de Satisfacción</h1>
+
+  <p id="description">
+    Gracias por ser mi culonita especial todos  estos años.
+  </p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Nombre completo:</label>
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      placeholder="Ejemplo: Lucia Marecos" 
+      required>
+<br><br>
+    <label id="email-label" for="email">Correo electrónico:</label>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      placeholder="marecoslucia@gmal.com" 
+      required>
+<br><br>
+    <label id="number-label" for="number">Edad</label>
+    <input 
+      type="number" 
+      id="number" 
+      name="age" 
+      min="5" 
+      max="120" 
+      placeholder="Ej: 28"
+    >
+<br><br>
+    <label for="dropdown">¿Cómo es mi desempeño en la cama?</label>
+    <select id="dropdown" name="referred">
+      <option value="" disabled selected>Selecciona una opción</option>
+      <option value="google">Buenisima</option>
+      <option value="redes">Buena</option>
+      <option value="amigos">Regular</option>
+      <option value="publicidad">Promedio</option>
+      <option value="otro">Mala</option>
+    </select>
+<br><br>
+    <p>¿Que crees que deberia mejorar?</p>
+    <input type="radio" id="definitivamente" name="recommend" value="definitivamente" required>
+    <label for="definitivamente">Duracion</label><br>
+    <input type="radio" id="quizas" name="recommend" value="quizas">
+    <label for="quizas">Oral</label><br>
+    <input type="radio" id="nunca" name="recommend" value="nunca">
+    <label for="nunca">Previa</label>
+<br><br>
+    <p>¿Qué aspectos valoraste más? (puedes marcar varios)</p>
+    <input type="checkbox" id="limpieza" name="features" value="limpieza">
+    <label for="limpieza">Besos</label><br>
+    <input type="checkbox" id="personal" name="features" value="personal">
+    <label for="personal">Caricias</label><br>
+    <input type="checkbox" id="comida" name="features" value="comida">
+    <label for="comida">Movimiento</label><br>
+    <input type="checkbox" id="ubicacion" name="features" value="ubicacion">
+    <label for="ubicacion">Posiciones</label><br>
+    <input type="checkbox" id="comodidad" name="features" value="comodidad">
+    <label for="comodidad">Otro</label>
+<br><br>
+    <label for="comments">Comentarios o sugerencias adicionales</label><br>
+    <textarea 
+      id="comments" 
+      name="comments" 
+      rows="6" 
+      cols="50" 
+      placeholder="Cuéntanos tu experiencia, qué te gustó y qué podríamos mejorar..."></textarea>
+<br><br>
+<button type="submit" id="submit">Enviar mi opinión</button>
+</form>
+</body>
+</html>
