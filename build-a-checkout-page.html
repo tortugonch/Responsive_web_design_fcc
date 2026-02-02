@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+<body>
+<h1> Checkout </h1>
+<section>
+    <h2>
+        Your Cart
+        </h2> 
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="rubiks cube"> </img>
+        </section>
+<section>
+    <h2>
+        Payment Information
+        </h2>
+        <form>
+            <div>
+                <label 
+                for="card-name">
+                Cardholder Name
+                <span aria-hidden="true">*</span>
+                </label>
+                <input  
+                type="text"
+                id="card-name"
+                name="card-name"
+                required>
+                </div>
+            <div>
+                <label 
+                for="card-number">
+                Cardholder Number
+                <span  aria-hidden="true">*</span>
+                </label>
+                <input
+                type="text"
+                id="card-number"
+                name="card-number"
+                required aria-describedby="card-number-help">
+                <p id="card-number-help"> Please enter your 16-digit card number without spaces or dashes.
+
+                </p>
+                </div>
+            <div>
+                <label for="expiry-date">
+                    Expiry Date
+                    <span aria-hidden="true">*</span>
+                    </label>
+                    <input 
+                    type="text"
+                    id="expiry-date"
+                    name="expiry-name"
+                    placeholder="MM/YY"
+                    required>
+                    </div>
+            <div>
+                <label for="cvv-number">
+                    CVV
+                    <span aria-hidden="true">*</span></label>
+                    <input
+                    type="text"
+                    id="cvv-number"
+                    name="cvv-number"
+                    placeholder="***"
+                    required>
+                    </div>
+                    <button type="submit">
+                        Place Order
+                    </button>
+
+
+
+        </form>
+        </section>
+</body>
+
+</html>
