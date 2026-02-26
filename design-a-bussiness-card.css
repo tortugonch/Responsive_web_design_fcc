@@ -1,0 +1,99 @@
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.business-card {
+  width: 300px;
+  background-color: #fdfaf7;           /* very light warm off-white */
+  padding: 20px;
+  margin: 100px auto 40px auto;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.profile-image {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.full-name {
+  font-size: 1.45em;
+  font-weight: 700;
+  color: #3a2e2b;
+}
+
+.designation {
+  font-size: 1.1em;
+  color: #5c4a46;
+}
+
+.company {
+  font-size: 0.95em;
+  color: #7a635c;
+}
+.business-card p {
+  margin: 5px 0;
+}
+
+.business-card p:not(.full-name):not(.designation):not(.company) {
+  color: #4a3c38;
+}
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #d4b8b0, transparent);
+  margin: 18px 0;
+}
+
+.portfolio-link {
+  display: inline-block;
+  margin: 12px 0 18px 0;
+  color: #6b4e47;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.portfolio-link:hover {
+  color: #8b6a62;
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media h2 {
+  font-size: 1.1em;
+  color: #5c4a46;
+  margin: 0 0 14px 0;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 12px;
+  color: #6b4e47;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #8b6a62;
+}
+.business-card p:not(.full-name):not(.designation):not(.company) {
+  margin: 5px;
+  ...
+}
+
+/* Remove underline from ALL links on the page */
+a {
+  text-decoration: none;
+}
