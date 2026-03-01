@@ -4,9 +4,9 @@ body {
   padding-bottom: 50px;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: center;
-  margin-right: center;
-  width: vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
   min-height: calc(100vh - 100px);
 }
 header {
@@ -42,4 +42,5 @@ hr {
 }
 .hr-text {
   text-align: center;
+
 }
