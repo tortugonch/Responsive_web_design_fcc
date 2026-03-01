@@ -1,0 +1,45 @@
+body {
+  background: gray;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: center;
+  margin-right: center;
+  width: vw;
+  min-height: calc(100vh - 100px);
+}
+header {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+section {
+  width: 80%;
+  margin: 0;
+  padding: 28px;
+  background: green;
+  border-radius: 36px;
+  border: 2px solid lightblue;
+  backdrop-filter: blur(8px);
+}
+section h2 {
+  color: blue;
+}
+section p {
+  color: white;
+}
+hr {
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px
+  border: black;
+  height: 2px;
+  background: black;
+}
+.hr-text {
+  text-align: center;
+}
